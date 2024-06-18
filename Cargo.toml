@@ -1,0 +1,19 @@
+[package]
+name = "glfw_example"
+version = "0.1.0"
+edition = "2021"
+
+[profile.release]
+codegen-units = 1
+lto = "fat"
+panic = "abort"
+strip = "symbols"
+
+[dependencies]
+cgmath = "0.18.0"
+colorgrad = "0.6.2"
+gl = "0.14.0"
+glfw = "0.56.0"
+rand = "0.8.5"
+rayon = "1.10.0"
+
