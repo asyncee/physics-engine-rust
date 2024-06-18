@@ -8,6 +8,6 @@ void main()
     if (dot(circCoord, circCoord) > 1.0) {
         discard;
     }
-    //FragColor = vec4(PointColor, 1.0f);
-    FragColor = vec4(0.3, 0.5, 1.0, 1.0f);
+    FragColor = vec4(PointColor, 1.0f);
+    //    FragColor = vec4(0.3, 0.5, 1.0, 1.0f);
 }

@@ -8,7 +8,7 @@ uniform mat4 projection;
 
 void main() {
     gl_Position = projection * vec4(pos, 0.0, 1.0);
-    //    gl_PointSize = 10;
-    gl_PointSize = 30;
+    gl_PointSize = 10;
+    //    gl_PointSize = 30;
     PointColor = color;
 }
